@@ -1,6 +1,6 @@
 @import url("https://use.typekit.net/zzn6vcb.css");
 
-body{
+body{width:100%;height:100%;
 font-family: itc-benguiat, serif;
 font-weight: 400;
 font-style: normal;
@@ -22,8 +22,7 @@ a:hover {text-decoration: underline;color:#BB99D0;}
 .title{position:fixed; font-size:3em;text-align:center;top:10px;width:100%;height:auto;z-index:103;}
 .desc{position:fixed;font-size:1.3em;text-align:left;bottom:6%;left:10px;width:25%;height:auto;z-index:99;}
 .othertracks {position:fixed;font-size:1.3em;text-align:center;right:-48%;width:100%;height:auto;transform:rotate(90deg);z-index: 104;}
-.rsvg {position:relative;overflow:hidden;height:100%;display:flex;}
-
+.rsvg {height:100%;width:auto;z-index:1;position:relative;}
 
 @-webkit-keyframes rotate {
     0%, 50%,100% {
@@ -124,8 +123,11 @@ transition-duration: 0.5s;
 .delay60 {-webkit-animation-delay: 60s;}
 
 
-@media only screen and (max-width:600px)
-{.title{font-size:2em;}
-    .oval{width:30%; height:22%;}
+
+
+
+@media only screen and (max-width:600px){.title{font-size:2em;}
 .othertracks {position:fixed;font-size:1em;top:50%;right:-45%;width:100%;z-index:3;transform: rotate(90deg);}
+.rsvg svg{height:100%;width:auto;}
+    .rsvg {left:-40%}
 }
