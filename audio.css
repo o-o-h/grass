@@ -125,3 +125,9 @@ svg, img {
     transform: rotateZ(1turn);
   }
 }
+
+
+
+
+
+@media only screen and (max-width:600px){.audio.green-audio-player .controls {font-size: 1em}
