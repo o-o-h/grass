@@ -27,7 +27,7 @@ button[data-am-button^="large"] {
   margin: 0;
 }
 button[data-am-button^="large"] i {
-  font-size: 40px;
+  font-size: 60px;
 }
 button[data-am-button^="small"] {
   width: 40px;
