@@ -130,4 +130,11 @@ transition-duration: 0.5s;
 .othertracks {position:fixed;font-size:1em;top:50%;right:-45%;width:100%;z-index:3;transform: rotate(90deg);}
 .rsvg svg{height:100%;width:auto;}
     .rsvg {left:-40%}
+
+.bar span
+{width: 6vw;
+    height: 20vh;
+    margin-left:6%;
+
+}
 }
